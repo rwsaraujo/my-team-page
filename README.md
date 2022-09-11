@@ -8,4 +8,4 @@ In this project I used Gulp to compile .scss to .css.
 
 ## Project on GitHub Pages:
 
-<a target="_blank" href="https://araujowebdev.github.io/My-Team-Page-devChallenges/">My Team Page</a>
+<a target="_blank" href="https://araujowebdev.github.io/My-Team-Page---devChallenges/">My Team Page</a>
