@@ -1,0 +1,16 @@
+body {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 110px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 70px 12px 24px;
+    gap: 60px;
+  }
+}
