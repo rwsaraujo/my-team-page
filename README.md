@@ -1,22 +1,20 @@
 # My Team Page
 
-O My team page é a página de apresentação de uma equipe composta por diversos profissionais envolvidos no desenvolvimento de aplicações web.
+My team page is the presentation page of a team made up of several professionals involved in the development of web applications.
 
-Este projeto foi desenvolvido como um desafio proposto pelo site devChallenges como forma de consolidação de conhecimentos na construção de páginas responsivas (nível iniciante).
+This project was developed as a challenge proposed by the devChallenges website as a way of consolidating knowledge in building responsive pages (beginner level).
 
-Logo abaixo você poderá encontrar o link para o deploy do projeto.
+Below you can find the link to deploy the project.
 
-| Sobre       |                                                                                            |
-| ----------- | ------------------------------------------------------------------------------------------ |
-| Nome        | **My Team Page**                                                                           |
-| Tecnologias | HTML5, Scss, JavaScript e Gulp                                                             |
-| URL         | [**https://rwsaraujo.github.io/my-team-page/**](https://rwsaraujo.github.io/my-team-page/) |
+| About        |                                                                                            |
+| ------------ | ------------------------------------------------------------------------------------------ |
+| Name         | **My Team Page**                                                                           |
+| Technologies | HTML5 & SCSS                                                                               |
+| URL          | [**https://rwsaraujo.github.io/my-team-page/**](https://rwsaraujo.github.io/my-team-page/) |
 
-## Tecnologias do projeto
+## Project Technologies
 
 <div>
   <img src="https://img.shields.io/badge/HTML5-dd4b25?style=for-the-badge&logo=html5&logoColor=fff">
   <img src="https://img.shields.io/badge/scss-c66394?style=for-the-badge&logo=sass&logoColor=fff">
-  <img src="https://img.shields.io/badge/javascript-efd81d?style=for-the-badge&logo=javascript&logoColor=000">
-  <img src="https://img.shields.io/badge/gulp-d34446?style=for-the-badge&logo=gulp&logoColor=fff">
 </div>
