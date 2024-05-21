@@ -1,14 +1,12 @@
-footer {
-  font: 0.875rem "Montserrat", sans-serif;
-  text-align: center;
-  color: #a9a9a9;
+.footer {
+  height: 3.75rem; /* 60px */
 }
 
-a {
-  font-weight: 700;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
+@media screen and (max-width: 420px) {
+  .footer {
+    p,
+    a {
+      font-size: 0.75rem; /* 12px */
+    }
   }
 }

@@ -1,95 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <!-- Meta Tags -->
+  <title>My Team Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Fonts | Montserrat, PT Serif & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./build/style/style.css" />
+</head>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./build/style/style.css" />
+<body class="bg-white txt-black flex column spacebetween">
+  <!-- Header -->
+  <header class="header container grid">
+    <h1 class="ptserif-700">The creative crew</h1>
+    <div>
+      <h2 class="poppins-600 uppercase">Who we are</h2>
+      <p class="poppins-400">
+        We are a creatively diverse team of innovative individuals working from around the world.
+      </p>
+    </div>
+  </header>
 
-    <!-- Page Title -->
-    <title>My Team Page</title>
-  </head>
-
-  <body>
-    <header>
-      <h1>The creative crew</h1>
-      <div>
-        <h2>Who we are</h2>
-        <p>
-          We are team of creatively diverse. driven. innovative individuals
-          working in various locations from the world.
-        </p>
+  <!-- Main -->
+  <main class="main container grid">
+    <div class="main__card">
+      <div class="main__card__image flex">
+        <img src="./src/imgs/photo1.png" alt="Bill Mahoney" />
+        <h4 class="ptserif-400 uppercase txt-vertical">Product Owner</h4>
       </div>
-    </header>
+      <h3 class="poppins-600">Bill Mahoney</h3>
+    </div>
 
-    <main>
-      <div>
-        <div>
-          <img src="./src/imgs/photo1.png" alt="Bill Mahoney" />
-          <h4>Product Owner</h4>
-        </div>
-        <h3>Bill Mahoney</h3>
+    <div class="main__card">
+      <div class="main__card__image flex">
+        <img src="./src/imgs/photo2.png" alt="Saba Cabrera" />
+        <h4 class="ptserif-400 uppercase txt-vertical">Art director</h4>
       </div>
+      <h3 class="poppins-600">Saba Cabrera</h3>
+    </div>
 
-      <div>
-        <div>
-          <img src="./src/imgs/photo2.png" alt="Saba Cabrera" />
-          <h4>Art director</h4>
-        </div>
-        <h3>Saba Cabrera</h3>
+    <div class="main__card">
+      <div class="main__card__image flex">
+        <img src="./src/imgs/photo3.png" alt="Shae Le" />
+        <h4 class="ptserif-400 uppercase txt-vertical">Tech Lead</h4>
       </div>
+      <h3 class="poppins-600">Shae Le</h3>
+    </div>
 
-      <div>
-        <div>
-          <img src="./src/imgs/photo3.png" alt="Shae Le" />
-          <h4>Tech Lead</h4>
-        </div>
-        <h3>Shae Le</h3>
+    <div class="main__card">
+      <div class="main__card__image flex">
+        <img src="./src/imgs/photo4.png" alt="Skylah Lu" />
+        <h4 class="ptserif-400 uppercase txt-vertical">UX Designer</h4>
       </div>
+      <h3 class="poppins-600">Skylah Lu</h3>
+    </div>
 
-      <div>
-        <div>
-          <img src="./src/imgs/photo4.png" alt="Skylah Lu" />
-          <h4>UX Designer</h4>
-        </div>
-        <h3>Skylah Lu</h3>
+    <div class="main__card">
+      <div class="main__card__image flex">
+        <img src="./src/imgs/photo5.png" alt="Griff Richards" />
+        <h4 class="ptserif-400 uppercase txt-vertical">Developer</h4>
       </div>
+      <h3 class="poppins-600">Griff Richards</h3>
+    </div>
 
-      <div>
-        <div>
-          <img src="./src/imgs/photo5.png" alt="Griff Richards" />
-          <h4>Developer</h4>
-        </div>
-        <h3>Griff Richards</h3>
+    <div class="main__card">
+      <div class="main__card__image flex">
+        <img src="./src/imgs/photo6.png" alt="Stan John" />
+        <h4 class="ptserif-400 uppercase txt-vertical">Developer</h4>
       </div>
+      <h3 class="poppins-600">Stan John</h3>
+    </div>
+  </main>
 
-      <div>
-        <div>
-          <img src="./src/imgs/photo6.png" alt="Stan John" />
-          <h4>Developer</h4>
-        </div>
-        <h3>Stan John</h3>
-      </div>
-    </main>
+  <!-- Footer -->
+  <footer class="footer container txt-gray montserrat-400 flex center">
+    <p>
+      2024 - created by
+      <a href="https://github.com/rwsaraujo" target="_blank" class="link">rwsaraujo</a> |
+      <a href="https://devchallenges.io/" target="_blank" class="link">devChallenges.io</a>
+    </p>
+  </footer>
+</body>
 
-    <footer>
-      <span
-        >created by
-        <a href="https://rwsaraujo.github.io/araujowebdev/" target="_blank"
-          >araujowebdev</a
-        >
-        - devChallenges.io</span
-      >
-    </footer>
-  </body>
 </html>

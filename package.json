@@ -1,14 +1,14 @@
 {
   "name": "my-team-page",
-  "version": "2.0.0",
-  "description": "My team page is the presentation page of a team made up of several professionals involved in the development of web applications.",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch src/style/style.scss build/style/style.css --style compressed"
   },
-  "author": "Raphael Araujo",
+  "author": "rwsaraujo",
   "license": "ISC",
-  "dependencies": {
-    "sass": "^1.69.5"
+  "devDependencies": {
+    "sass": "^1.77.2"
   }
 }

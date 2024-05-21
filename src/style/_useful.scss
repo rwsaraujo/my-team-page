@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.txt-vertical {
+  writing-mode: vertical-rl;
+}

@@ -1,21 +1,8 @@
-html,
-body,
-div,
-span,
-h1,
-h2,
-h3,
-h4,
-p,
-a,
-img,
-footer {
+* {
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font-weight: normal;
-  line-height: 1rem;
   box-sizing: border-box;
-  color: inherit;
+  font-size: 1rem; /* 16px */
+  font-weight: 400; /* normal */
+  line-height: 1;
 }

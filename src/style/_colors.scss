@@ -1,0 +1,26 @@
+// Text Colors
+.txt {
+  &-black {
+    color: #111;
+  }
+  &-gray {
+    color: #a9a9a9;
+  }
+}
+
+// Background Colors
+.bg {
+  &-white {
+    background: #fafafa;
+  }
+}
+
+// Link Colors
+.link {
+  color: #a9a9a9;
+  transition: 0.2s;
+
+  &:hover {
+    color: #111;
+  }
+}

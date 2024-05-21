@@ -1,34 +1,39 @@
-header {
-  width: 100%;
-  display: grid;
+.header {
+  min-height: 15rem; /* 240px */
   grid-template-columns: 55% 45%;
-}
+  padding-top: 6.25rem; /* 100px */
 
-h1 {
-  font: 700 2.25rem/1rem "PT Serif", serif;
-  letter-spacing: -0.045em;
-}
+  h1 {
+    font-size: 2.25rem; /* 36px */
+    letter-spacing: -0.045em;
+  }
 
-h2 {
-  font: 600 1.125rem/1rem "Poppins", sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
+  h2,
+  p {
+    font-size: 1.125rem; /* 18px */
+  }
 
-p {
-  max-width: 440px;
-  font: 1.125rem/1.6875rem "Poppins", sans-serif;
-}
-
-@media screen and (max-width: 768px) {
-  header {
-    grid-template-columns: 100%;
-    row-gap: 40px;
+  h2 {
+    margin-bottom: 0.625rem; /* 10px */
   }
 
   p {
-    max-width: 100%;
-    font-size: 0.875rem;
-    line-height: 21px;
+    max-width: 21rem; /* 336px */
+  }
+}
+
+// Responsive
+@media screen and (max-width: 768px) {
+  .header {
+    min-height: 10rem;
+    grid-template-columns: 100%;
+    gap: 2.5rem; /* 40px */
+    padding-top: 10.63vw;
+
+    p {
+      max-width: 27.5rem; /* 440px */
+      font-size: 0.875rem; /* 14px */
+      line-height: 1.5; /* 21px */
+    }
   }
 }
