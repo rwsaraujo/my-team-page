@@ -1,20 +1,28 @@
-# My Team Page
+# DevChallenges - My Team Page
 
 My team page is the presentation page of a team made up of several professionals involved in the development of web applications.
 
 This project was developed as a challenge proposed by the devChallenges website as a way of consolidating knowledge in building responsive pages (beginner level).
 
-Below you can find the link to deploy the project.
+## Overview
 
-| About        |                                                                                            |
-| ------------ | ------------------------------------------------------------------------------------------ |
-| Name         | **My Team Page**                                                                           |
-| Technologies | HTML5 & SCSS                                                                               |
-| URL          | [**https://rwsaraujo.github.io/my-team-page/**](https://rwsaraujo.github.io/my-team-page/) |
+### Preview
 
-## Project Technologies
+![](./src/imgs/preview.gif)
 
-<div>
-  <img src="https://img.shields.io/badge/HTML5-dd4b25?style=for-the-badge&logo=html5&logoColor=fff">
-  <img src="https://img.shields.io/badge/scss-c66394?style=for-the-badge&logo=sass&logoColor=fff">
-</div>
+### Links
+
+- Live Site URL: [Live Site](https://rwsaraujo.github.io/404-not-found/)
+
+## My process
+
+### Built with
+
+- HTML
+- CSS Flex Box
+- CSS Grid Layout
+- JavaScript
+
+## Author
+
+- GitHub - [rwsaraujo](https://github.com/rwsaraujo)
