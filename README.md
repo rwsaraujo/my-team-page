@@ -12,7 +12,7 @@ This project was developed as a challenge proposed by the devChallenges website 
 
 ### Links
 
-- Live Site URL: [Live Site](https://rwsaraujo.github.io/404-not-found/)
+- Live Site URL: [Live Site](https://rwsaraujo.github.io/my-team-page/)
 
 ## My process
 
